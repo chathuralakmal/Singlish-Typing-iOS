@@ -358,5 +358,9 @@
 }
 
 
+- (IBAction)btnCopy:(id)sender {
+    [UIPasteboard generalPasteboard].string = _outputTextView.text;
+    
+}
 
 @end

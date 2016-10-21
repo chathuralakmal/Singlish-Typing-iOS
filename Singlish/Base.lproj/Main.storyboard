@@ -127,7 +127,13 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="XXZ-oC-d14"/>
+                    <navigationItem key="navigationItem" id="XXZ-oC-d14">
+                        <barButtonItem key="rightBarButtonItem" title="Copy" id="rKh-ec-q0F">
+                            <connections>
+                                <action selector="btnCopy:" destination="BYZ-38-t0r" id="KNV-MA-SIL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="inputTextView" destination="3DV-pX-bQA" id="LWv-aC-LfW"/>
                         <outlet property="outputTextView" destination="Cpr-MK-Hk2" id="owJ-9v-xvP"/>
